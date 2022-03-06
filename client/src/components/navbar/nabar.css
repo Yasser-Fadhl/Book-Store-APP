@@ -1,0 +1,21 @@
+.home {
+  margin-right: 25px;
+}
+.navPosition {
+  display: flex;
+  justify-content: space-around;
+}
+.navList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.search input {
+
+  transition: width 0.4s ease-in-out;
+}
+
+.search input:focus {
+  width: 100%;
+}

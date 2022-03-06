@@ -1,0 +1,27 @@
+.top {
+  position: fixed;
+  min-width: 100%;
+  z-index: 500;
+}
+
+body {
+  font-family: Arial;
+  height: 100%;
+  /* background: linear-gradient(
+    to bottom,
+    rgb(250, 251, 252),
+    hsla(229, 71%, 51%, 0.356) */
+  background-image: url("./../public/bookStoreBackground6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* background-position: center; */
+}
+
+/* * {
+  scroll-behavior: smooth;
+  padding: 0px;
+} */

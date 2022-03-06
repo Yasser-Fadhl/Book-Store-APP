@@ -1,0 +1,40 @@
+@media screen and (max-width: 991px) {
+  .bookStore {
+    display: grid;
+    position: relative;
+    top: 324px;
+
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: column;
+    background-color: #218ae0;
+  }
+}
+@media screen and (min-width: 991px) {
+  .bookStore {
+    display: grid;
+    position: relative;
+    top: 156px;
+
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: column;
+    background-color: #218ae0;
+  }
+}
+/* .bookContainer {
+} */
+
+/* .bookStore h3 {
+  justify-content: center;
+} */
+.book {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: 300px;
+}
