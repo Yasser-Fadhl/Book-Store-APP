@@ -2,7 +2,7 @@
   .bookStore {
     display: grid;
     position: relative;
-    top: 324px;
+    top: 304px;
 
     width: 100%;
     grid-template-columns: auto auto auto;
@@ -35,6 +35,50 @@
   text-align: center;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   height: 300px;
+
+  border-radius: 10%;
+}
+@media screen and (max-width: 991px) {
+  .Cont {
+    background-color: bisque;
+    position: relative;
+    top: 304px;
+
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
+@media screen and (min-width: 991px) {
+  .Cont {
+    background-color: rgb(6, 10, 44);
+
+    position: relative;
+    top: 136px;
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
+
+.row > * {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-top: 2vw;
+}
+.Cont h3 {
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(56, 56, 116);
+  font-weight: bolder;
+}
+
+.Cont h4 {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(56, 56, 116);
+  font-weight: bolder;
+}
+.col:hover {
+  background-color: azure;
 }

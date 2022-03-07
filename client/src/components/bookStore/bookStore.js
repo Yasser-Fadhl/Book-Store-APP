@@ -26,15 +26,17 @@ function BookStore() {
 
   console.log("my book" + book);
   return (
-    <div className="bookStore ">
-      <div className="bookContainer">
+    // <div className="bookStore ">
+    /* <div className="bookContainer"> */
+    <div className="container Cont">
+      <div className="row row-cols-3">
         {book.map((b) => {
           return (
-            <div key={bookName} className="book">
+            <div key={bookName} className="col">
               <img src={b.picture} alt="Book" />
               <h3>{b.bookName}</h3>
               <h4>{b.author}</h4>
-              <h4>{b.price}</h4>
+              <h4>{b.price}$</h4>
             </div>
           );
         })}
@@ -44,3 +46,12 @@ function BookStore() {
 }
 
 export default BookStore;
+
+/* <div class="container">
+  <div class="row row-cols-2">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div> */
